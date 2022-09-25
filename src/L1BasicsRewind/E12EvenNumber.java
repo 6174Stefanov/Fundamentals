@@ -8,7 +8,7 @@ public class E12EvenNumber {
         int num = Integer.parseInt(scanner.nextLine());
 
         while (num % 2 !=0) {
-            System.out.println("Please write an even number");
+            System.out.println("Please write an even number.");
 
             num = Integer.parseInt(scanner.nextLine());
         }

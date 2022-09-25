@@ -9,7 +9,7 @@ public class E4TownInfo {
         int population = Integer.parseInt(scanner.nextLine());
         short area = Short.parseShort(scanner.nextLine());
 
-        String result = String.format("Town %s has population of %d and area %d square km", cityName, population, area);
+        String result = String.format("Town %s has population of %d and area %d square km.", cityName, population, area);
         System.out.println(result);
     }
 }

@@ -17,10 +17,10 @@ public class E11RageExpences {
         int countKeyboard = lostGames / 6;
         int countMonitor = lostGames / 12;
 
-        double totalCost = (countHeadset + headsetPrice)
+        double totalCost = (countHeadset * headsetPrice)
                 + (countMouse * mousePrice)
-                + (countKeyboard + keyboardPrice)
-                + (countMonitor + monitorPrice);
+                + (countKeyboard * keyboardPrice)
+                + (countMonitor * monitorPrice);
         System.out.printf("Rage expenses: %.2f lv.", totalCost);
     }
 }
