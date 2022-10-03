@@ -14,7 +14,7 @@ public class E9Dune {
         while (currentSpiceLeft >= 100){
 
             producedDayly = currentSpiceLeft - 26;
-            spiceSum = spiceSum + producedDayly;
+            spiceSum = spiceSum + (currentSpiceLeft - 26);
             daysCounter++;
             currentSpiceLeft = currentSpiceLeft - 10;
 
